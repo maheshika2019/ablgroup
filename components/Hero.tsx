@@ -27,10 +27,10 @@ const Hero: React.FC = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <div className="d-inline-flex align-items-center gap-2 mb-4 px-3 py-1 rounded-pill border border-white border-opacity-25 bg-white bg-opacity-10 backdrop-blur-sm">
+              {/* <div className="d-inline-flex align-items-center gap-2 mb-4 px-3 py-1 rounded-pill border border-white border-opacity-25 bg-white bg-opacity-10 backdrop-blur-sm">
                 <span className="badge rounded-pill bg-primary">NEW</span>
                 <span className="small fw-bold tracking-wide">Q3 Financial Report Released</span>
-              </div>
+              </div> */}
 
               <h1 className="display-1 fw-bold mb-4 lh-1 tracking-tight">
                 One Abans. <br />

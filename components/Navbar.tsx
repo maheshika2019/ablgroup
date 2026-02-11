@@ -31,8 +31,9 @@ const Navbar: React.FC = () => {
             {NAV_ITEMS.map((item) => (
               <li className="nav-item" key={item.label}>
                 <a 
-                  className={`nav-link text-uppercase fs-6 fw-bold tracking-wide ${isScrolled ? 'text-dark' : 'text-white opacity-75 hover:opacity-100'}`} 
+                  className={`nav-link text-uppercase fw-bold tracking-wide ${isScrolled ? 'text-dark' : 'text-white opacity-75 hover:opacity-100'}`} 
                   href={item.href}
+                  style={{ fontSize: '13px' }}
                   target={item.isExternal ? '_blank' : '_self'}
                 >
                   {item.label}
